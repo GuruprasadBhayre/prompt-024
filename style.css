@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+nav{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+nav ul {
+    margin-left: 10px;
+    width: 340px;
+    height: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li {
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+    width: auto;
+    font-size: 18px;
+    color: black;
+}
+ .nav-btn{
+    width: 200px;
+    height: 52px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* background-color: #00B628; */
+}
+.nav-btn > button{
+    padding: 8px 20px;
+    background-color: #00B628;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+}
+#contents #email {
+    font-size: 22px;
+    margin: 0px;
+}
+#email-box {
+    border: 1px solid;
+    width: 450px;
+    height: 48px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px;
+    margin-top: 11px;
+}
+#contents{
+    height: 100%;
+    width: 40%;
+    margin: 0px 0px 0px 90px;
+}
+#contents #pwd {
+    font-size: 22.15px;
+    margin: 0px;
+    margin-top: 21px;
+}
+#pwd-box {
+    border: 1px solid;
+    width: 450px;
+    height: 48px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px;
+    margin-top: 11px;
+}
+
+.check {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 490px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.check input[type=checkbox]{
+    margin: 2px;
+    transform: scale(1.5);
+    padding: 0px;
+}
+.check p {
+    font-size: 17px;
+    color: #00B628;
+    font-weight: 500;
+}
+.btn > button{
+    padding: 10px 40px;
+    background-color: #00B628;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.acct {
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.acct-span {
+    color: #00B628;
+}
+.acct-span a {
+    color: #00B628;
+    text-decoration: none;
+}
+footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 28px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color: #242229;
+}
